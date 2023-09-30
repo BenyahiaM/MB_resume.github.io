@@ -54,13 +54,12 @@
   }
   
   .bg-animated {
-    background-image: url('Q81V.gif');
+    background-image: url('Q81V.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Effet de parallaxe, si nécessaire */
     width: 100%;
     height: 100vh; /* Hauteur de la section, ajustez-la selon vos besoins */
-    font: ;
   }
   .card {
     transition: background-color 0.5s ease; /* Ajoute une transition à la couleur de fond */
