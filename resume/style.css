@@ -25,10 +25,6 @@
 .navbar {
     background-color:transparent;
 }
-
-.button{
-}
-
 #carouselprojet {
     max-width: 70%; 
     margin: 0 auto; 
@@ -68,3 +64,20 @@
   .card:hover {
     background-color: rgba(128, 0, 128, 0.5) !important; /* Violet avec opacité lorsqu'on survole */
   }
+  h5.card-title {
+    color: white;
+}
+.bt_purple{
+  background-color: #bd00ff !important;
+}
+.bt_pink{
+  background-color: #d43d8a !important;
+}
+.bt_blue{
+  background-color: #68aca3 !important ;
+}
+.bt {
+  background-color: initial; /* Réinitialiser la couleur de fond */
+  color: initial; /* Réinitialiser la couleur du texte */
+  /* Autres propriétés que vous souhaitez réinitialiser */
+}
