@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: 'retro'; 
+    src: url('font/Retro\ Gaming.ttf') format('woff'); 
+  }
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'retro', sans-serif ;
+    color: #fff !important;
+}
+
+.contact{
+    color: #fff;
+    padding: 40px 0;
+    width: 100%;
+}
+.section {
+    color: #fff;
+    padding: 50vh;
+    margin: 2vh;
+    margin-top: 10vh;
+
+}
+.navbar {
+    background-color:transparent;
+}
+#carouselprojet {
+    max-width: 70%; 
+    margin: 0 auto; 
+  }
+
+  #carouselprojet .carousel-item img {
+    max-width: 100%; 
+    height: 0 auto; 
+  }
+  .parallax-zoom {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    width: 100%;
+    overflow: hidden; 
+    transition: transform 0.3s; 
+
+  }
+  
+  .parallax-zoom:hover {
+    transform: scale(1.2); 
+
+  }
+  
+  .bg-animated {
+    background-image: url('Q81V.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Effet de parallaxe, si nécessaire */
+    width: 100%;
+    height: 100vh; /* Hauteur de la section, ajustez-la selon vos besoins */
+  }
+  .card {
+    transition: background-color 0.5s ease; /* Ajoute une transition à la couleur de fond */
+  }
+  
+  .card:hover {
+    background-color: rgba(128, 0, 128, 0.5) !important; /* Violet avec opacité lorsqu'on survole */
+  }
+  h5.card-title {
+    color: white;
+}
+.bt_purple{
+  background-color: #bd00ff !important;
+}
+.bt_pink{
+  background-color: #d43d8a !important;
+}
+.bt_blue{
+  background-color: #68aca3 !important ;
+}
+.bt {
+  background-color: initial; /* Réinitialiser la couleur de fond */
+  color: initial; /* Réinitialiser la couleur du texte */
+  /* Autres propriétés que vous souhaitez réinitialiser */
+}
+.text_color{
+  color: white;
+}
